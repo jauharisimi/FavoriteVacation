@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>  
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">     
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+        <script type "text/javascript" src="js/bootstrap.min.js"></script>
+    </head>    
+    <body>        
+        <div class="container">
+            <div class="row">              
+                <div class="col-md-6 ">             
+                    <img class="title-logo" src="images/udacity_logo.png" alt ="Udacity logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Simi Jauhari</h1>
+                    <h3>Front-end-developer</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive center-block" src="images/Worldmap.png" alt ="This a picture">
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                   <h2 class="text-muted">Featured Places</h2>
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive" src="images/Kauai.png"data-toggle="modal" data-target="#project1">
+                    <h3 class="text-uppercase">Kauai</h3>
+                    <p><a href="http://www.kauai.com">More Info Link</a></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive" src="images/clearwaterbeach.png"data-toggle="modal" data-target="#project2">
+                    <h3 class="text-uppercase">Clearwater beach</h3>
+                    <p><a href="http://www.clearwaterbeach.com">More Info Link</a></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive " src="images/cancun.png"data-toggle="modal" data-target="#project3">
+                    <h3 class ="text-uppercase">Cancun</h3>
+                    <p><a href="http://www.cancun.com">More Info Link</a></p>
+                </div>
+            </div>
+           
+        </div>
+
+        <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite Vacation Place</h4>
+        </div>
+        <div class="modal-body">
+            <img class="img-responsive" src="images/kauai.png">
+       Even a nickname like "The Garden Island" fails to do justice to Kauai's beauty. Verdant trees grow canopies over the few roads, and brooding mountains are framed by long, sandy beaches, coral reefs, and sheer sea cliffs. Pristine trade winds moderate warm daily temperatures while offering comfort for deep, refreshing sleep through gentle nights.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite Vacation Place</h4>
+        </div>
+        <div class="modal-body">
+            <img class="img-responsive" src="images/clearwaterbeach.png">
+      Clearwater offers a seemingly endless supply of entertainment, natural beauty, and outdoor activities both on land and at sea. No one can afford to miss this ultimate destination, ideally situated on Florida's stunning West Coast and offering something for every visitor and every budget.Enjoy and soak up the fun and sun of Clearwater's outstanding coastline.Caressed by tranquil Gulf breezes, its beaches offer miles of sugar-white sand, crystal clear waters and are consistently ranked among America's most beautiful!
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+    </div>
+
+ <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite Vacation Place</h4>
+        </div>
+        <div class="modal-body">
+            <img class="img-responsive" src="images/Cancun.png">
+       Cancún, a Mexican city on the Yucatán Peninsula bordering the Caribbean Sea, is known for its beaches, numerous resorts and energetic nightlife. It’s composed of 2 distinct areas: the more traditional downtown area, El Centro, and Zona Hotelera, a long, beachfront strip of high-rise hotels, nightclubs, shops and restaurants. Cancun is also a famed destination for students during college’s spring break period.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
